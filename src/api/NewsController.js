@@ -5,7 +5,7 @@ export default class NewsController {
     #baseUrl = `https://newsapi.org/v2/everything?q=health&apiKey=${this.#apiKey}`
      
     async getAllNews(){
-       const response = await axios.get(this.#baseUrl)
+        const response = await axios.get(this.#baseUrl)
        return response.data.articles
     }
 }

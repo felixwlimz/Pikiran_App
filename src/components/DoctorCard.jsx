@@ -2,7 +2,7 @@ export const DoctorCard = ({imgSrc, doctorName, specialist}) => {
 
 
     return (
-        <div className="border border-gray-300 rounded-lg w-[25%]">
+        <div className="border border-gray-300 rounded-lg">
            <div className="flex flex-row gap-3 p-6">
               <img src={imgSrc} className="w-[80px] h-[80px]"/>
               <div>
